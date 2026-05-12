@@ -1,0 +1,20 @@
+# Core pipeline dependencies
+requests==2.31.0
+pandas==2.2.0
+numpy==1.26.4
+
+# Visualization (for EDA notebook)
+matplotlib==3.8.2
+seaborn==0.13.2
+
+# Airflow (optional — needed only for dags/ folder)
+# apache-airflow==2.8.1
+
+# AWS (optional — needed to swap local storage for real S3)
+# boto3==1.34.0
+
+# PostgreSQL (optional — needed to swap SQLite for real PostgreSQL)
+# psycopg2-binary==2.9.9
+
+# Jupyter (for EDA notebook)
+jupyter==1.0.0

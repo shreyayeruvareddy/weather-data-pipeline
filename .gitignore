@@ -1,0 +1,22 @@
+# API keys — NEVER commit these
+config.py
+
+# Data files (too large / regenerated each run)
+data/raw/
+data/processed/
+*.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
